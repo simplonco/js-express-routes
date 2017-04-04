@@ -50,12 +50,11 @@ ex. Michel, Osman, Tandi
 
 ``` 
 const users = [
-  {id: 0, firstName: 'Michel'},
-  {id: 1, firstName: 'Osman'},
-  {id: 2, firstName: 'Tandi'},
-  {id: 3, firstName: 'Daniel'},
-  {id: 4, firstName: 'Faustino'},
-  {id: 5, firstName: 'Ijacques'}
+  {id: 1, firstName: 'Osman', pseudoGithub: 'xxx'},
+  {id: 2, firstName: 'Tandi', pseudoGithub: 'xxx'},
+  {id: 3, firstName: 'Daniel', pseudoGithub: 'xxx'},
+  {id: 4, firstName: 'Faustino', pseudoGithub: 'xxx'},
+  {id: 5, firstName: 'Ijacques', pseudoGithub: 'xxx'}
 ]
 ``` 
 
@@ -104,6 +103,21 @@ const projects = [
     name: xxx
     githubUrl : xxxx
     githubRepo : xxxx
+ },
+ {
+    id: 1,
+    userId: 2, // le repo doit correspondre un utilisateur du tableau 'users'
+    name: xxx
+    githubUrl : xxxx
+    githubRepo : xxxx
+ },
+ {
+    id: 2,
+    userId: 4, // le repo doit correspondre un utilisateur du tableau 'users'
+    name: xxx
+    githubUrl : xxxx
+    githubRepo : xxxx
+ }
 ];
 ``` 
 
@@ -116,3 +130,7 @@ const projects = [
 5. faire une route user/:userId/projects/ qui rend une liste html des projets d'un utilisateur
 
 6. Dans le rendu de la route user/:userId/projects/, rajouter, pour chaque projet, le lien vers la page du projet correspondant (ex. /projects/0)
+
+### Exercice 7 : Base de données
+
+
