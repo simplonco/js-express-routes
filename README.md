@@ -63,7 +63,9 @@ const users = [
 
 * 1. Faire la même en html avec ejs :
 
+``` 
 Par exemple, pour GET /users, il faut renvoyer une liste html (<ul><li>...)
+```
 
 * References EJS :
 
