@@ -38,13 +38,7 @@ Ecrire 3 routes :
 
 Pour les 3 routes, on veut, à présent, rendre du html à la place d'une simple string.
 
-Pour ça, nous allons utiliser un moteur de template : EJS.
-
-EJS peut être utiliser en tant que middleware :
-  
-  * 
-
-* 1. GET /users => renvoie une vrai liste d'utilisateur base sur ce tableau
+* 1. GET /users => renvoie une vrai liste d'utilisateur basé sur ce tableau
 
 ex. Michel, Osman, Tandi
 
