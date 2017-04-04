@@ -74,13 +74,8 @@ Par exemple, pour GET /users, il faut renvoyer une liste html (<ul><li>...)
     * http://expressjs.com/fr/guide/using-template-engines.html
   
 * 2. Styliser votre rendu avec css
-  
-### Exercice 4 : Créer un middleware qui intercepte les errors et les logge dans le terminal :
 
-1. trouver le guide de creation de middleware
-2. mettre en place la gestion d'erreur
-
-### Exercice 5 : Créer des routes qui gérent les projets github des utilisateur
+### Exercice 4 : Créer des routes qui gérent les projets github des utilisateur
 
 1. créer un tableau js de projets avec la forme suivante :
 
@@ -121,7 +116,11 @@ const projects = [
 
 6. Dans le rendu de la route user/:userId/projects/, rajouter, pour chaque projet, le lien vers la page du projet correspondant (ex. /projects/0)
 
-  
+### Exercice 5 : Créer un middleware qui intercepte les errors et les logge dans le terminal :
+
+1. trouver le guide de creation de middleware
+2. mettre en place la gestion d'erreur
+
 ### Exercice 6 : Gérer ses response
 
 1. Trouver la doc de response de la librairie express
