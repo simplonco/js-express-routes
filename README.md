@@ -75,22 +75,12 @@ Par exemple, pour GET /users, il faut renvoyer une liste html (<ul><li>...)
   
 * 2. Styliser votre rendu avec css
   
-### Exercice 4 : Gérer ses response
-
-1. Trouver la doc de response de la librairie express
-2. Créer 2 routes qui renvoie les même donnée en JSON qui /users et /users/:id. Les routes seront :
-  
-  * /api/users
-  * /api/users/:id
-  
-3. Créer une route qui gére toutes les fausses routes (celles qui ne sont pas spécifiées par notre app) et qui renvoie un status 4O4.
-  
-### Exercice 5 : Créer un middleware qui intercepte les errors et les logge dans le terminal :
+### Exercice 4 : Créer un middleware qui intercepte les errors et les logge dans le terminal :
 
 1. trouver le guide de creation de middleware
 2. mettre en place la gestion d'erreur
 
-### Exercice 6 : Créer des routes qui gérent les projets github des utilisateur
+### Exercice 5 : Créer des routes qui gérent les projets github des utilisateur
 
 1. créer un tableau js de projets avec la forme suivante :
 
@@ -130,6 +120,17 @@ const projects = [
 5. faire une route user/:userId/projects/ qui rend une liste html des projets d'un utilisateur
 
 6. Dans le rendu de la route user/:userId/projects/, rajouter, pour chaque projet, le lien vers la page du projet correspondant (ex. /projects/0)
+
+  
+### Exercice 6 : Gérer ses response
+
+1. Trouver la doc de response de la librairie express
+2. Créer 2 routes qui renvoie les même donnée en JSON qui /users et /users/:id. Les routes seront :
+  
+  * /api/users
+  * /api/users/:id
+  
+3. Créer une route qui gére toutes les fausses routes (celles qui ne sont pas spécifiées par notre app) et qui renvoie un status 4O4.
 
 ### Exercice 7 : Base de données
 
