@@ -133,4 +133,7 @@ const projects = [
 
 ### Exercice 7 : Base de données
 
+1. installer posgresql
+...
+
 
