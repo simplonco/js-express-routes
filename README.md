@@ -48,6 +48,7 @@ EJS peut être utiliser en tant que middleware :
 
 ex. Michel, Osman, Tandi
 
+``` 
 const users = [
   {id: 0, firstName: 'Michel'},
   {id: 1, firstName: 'Osman'},
@@ -56,6 +57,7 @@ const users = [
   {id: 4, firstName: 'Faustino'},
   {id: 5, firstName: 'Ijacques'}
 ]
+``` 
 
 * 2. GET /users/:id => renvoie le prénom de l'utilsateur qui à cet ID
 
