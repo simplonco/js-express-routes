@@ -57,13 +57,15 @@ const users = [
   {id: 5, firstName: 'Ijacques'}
 ]
 
-### 5. GET /users/:id => renvoie le prénom de l'utilsateur qui à cet ID
+* 2. GET /users/:id => renvoie le prénom de l'utilsateur qui à cet ID
 
-### 6. Faire la même en html avec ejs :
+### Exercice 3
+
+* 1. Faire la même en html avec ejs :
 
 Par exemple, pour GET /users, il faut renvoyer une liste html (<ul><li>...)
 
-#### References EJS :
+* References EJS :
 
-* http://ejs.co/
-* http://expressjs.com/fr/guide/using-template-engines.html
+  * http://ejs.co/
+  * http://expressjs.com/fr/guide/using-template-engines.html
