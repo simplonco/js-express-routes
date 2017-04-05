@@ -110,10 +110,10 @@ const projects = [
 
 6. Dans le rendu de la route user/:userId/projects/, rajouter, pour chaque projet, le lien vers la page du projet correspondant (ex. /projects/0)
 
-### Exercice 5 : Créer un middleware qui intercepte les errors et les logge dans le terminal :
+### Exercice 5 : Créer un middleware qui intercepte les errors et les écrit dans le terminal :
 
 1. trouver le guide de creation de middleware
-2. mettre en place la gestion d'erreur
+2. mettre en place un logger
 
 ### Exercice 6 : Gérer ses response
 
