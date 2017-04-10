@@ -114,6 +114,7 @@ const projects = [
 
 1. trouver le guide de creation de middleware
 2. mettre en place un logger
+3. mettre en plavce un middleware qui attrape les erreurs (tips. le middleware doit etre placé après vos routes)
 
 ### Exercice 6 : Gérer ses response
 
