@@ -114,7 +114,7 @@ const projects = [
 
 1. trouver le guide de creation de middleware
 2. mettre en place un logger
-3. mettre en plavce un middleware qui attrape les erreurs (tips. le middleware doit etre placé après vos routes)
+3. mettre en place un middleware qui attrape les erreurs (chercher dans les middlewares existants de Expressjs)
 
 ### Exercice 6 : Gérer ses response
 
@@ -129,6 +129,6 @@ const projects = [
 ### Exercice 7 : Base de données
 
 1. installer posgresql
-...
+2. Tester des requetes SQL avec psql. (ex. CREATE DATABASE promo7)
 
 
