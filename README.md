@@ -162,6 +162,8 @@ const projects = [
 
 11. Repéter les étapes 4, 5, 6, 7, 8, 9 pour les projets. Attention un projet ne peut être créer sans un userID. En gros un projet est toujours lié à un user. un user peut avoir plusieurs projets et un projet ne peut appartenir qu'à un seul user (Relation ONE TO MANY)
 
+12. Mettre votre appli et votre base sur HEROKU
+
 Bon courage !!!
 
 
