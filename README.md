@@ -149,7 +149,7 @@ const projects = [
 5. Tester vos routes avec PostMan ou CURL
 6. Créer une page listant les users (en React ou EJS)
 7. Créer une page avec un formlaire permettant de créer un user (en React ou EJS)
-8. Utilser le meme formulaire pour faire un update d'un user (en React ou EJS)
+8. Utilser le même formulaire pour faire un update d'un user (en React ou EJS)
 9. Dans la page liste, ajouter à chaque element un bouton "supprimer". Quand on clique sur un des bouton, ça supprime l'utilisateur correspondant.
 
 10. Créer une table "projects" avec les colonnes suivantes:
