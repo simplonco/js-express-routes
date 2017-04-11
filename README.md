@@ -131,4 +131,37 @@ const projects = [
 1. installer posgresql
 2. Tester des requetes SQL avec psql. (ex. CREATE DATABASE promo7)
 
+  * ex. CREATE DATABASE promo7
+  * ex. CREATE TABLE users
+  * ex. INSERT ...
+  * ex. SELECT * FROM users
+  * ex. UPDATE ...
+  * ex. DELETE
+  
+3. En utilisant le pg client (npm i -S pg), interroger votre base de données Postgresql via votre application express
+4. Créer des routes express qui interagissent avec votre base :
+  
+  * ex. POST /user => INSERT ...
+  * ex. GET /users => SELECT * FROM users
+  * ex. PUT /user/:id => UPDATE ...
+  * ex. DELETE /user/:id => DELETE
+  
+5. Tester vos routes avec PostMan ou CURL
+6. Créer une page listant les users (en React ou EJS)
+7. Créer une page avec un formlaire permettant de créer un user (en React ou EJS)
+8. Utilser le meme formulaire pour faire un update d'un user (en React ou EJS)
+9. Dans la page liste, ajouter à chaque element un bouton "supprimer". Quand on clique sur un des bouton, ça supprime l'utilisateur correspondant.
+
+10. Créer une table "projects" avec les colonnes suivantes:
+
+    * id: PRIMARY KEY,
+    * userId: INT, // correpond à un utilisateur du tableau 'users'
+    * name: STRING
+    * githubUrl : STRING
+    * githubRepo : STRING
+
+11. Repéter les étapes 4, 5, 6, 7, 8, 9 pour les projets. Attention un projet ne peut être créer sans un userID. En gros un projet est toujours lié à un user. un user peut avoir plusieurs projets et un projet ne peut appartenir qu'à un seul user (Relation ONE TO MANY)
+
+Bon courage !!!
+
 
